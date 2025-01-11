@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Order Creation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Create Purchase Order</h1>
+    <form id="purchaseOrderForm">
+        <label for="poNumber">PO Number:</label><br>
+        <input type="text" id="poNumber" name="poNumber"><br><br>
+
+        <label for="vendor">Vendor:</label><br>
+        <input type="text" id="vendor" name="vendor"><br><br>
+
+        <label for="items">Items:</label><br>
+        <textarea id="items" name="items" rows="4" cols="50"></textarea><br><br>
+
+        <label for="orderDate">Order Date:</label><br>
+        <input type="date" id="orderDate" name="orderDate"><br><br>
+
+        <button type="submit">Create PO</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
